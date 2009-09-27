@@ -34,10 +34,10 @@ int main(int argc, char **argv){
 
 
 	players[num++] = new PlayerNegamax3(2);
-	players[num++] = new PlayerNegamax3(3);
-	players[num++] = new PlayerUCT(5000000, 5000000, 0.5);
-	players[num++] = new PlayerUCT(5000000, 5000000, 1.0);
-	players[num++] = new PlayerUCT(5000000, 5000000, 1.5);
+	players[num++] = new PlayerHuman();
+	//players[num++] = new PlayerUCT(5000000, 5000000, 0.5);
+	//players[num++] = new PlayerUCT(5000000, 5000000, 1.0);
+	//players[num++] = new PlayerUCT(5000000, 5000000, 1.5);
 
 
 //	players[num++] = new PlayerUCT(300000, 500000);
